@@ -13,14 +13,11 @@ class DayDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        title = day
     }
     
+    /// This string will get filled in with what ever day the user selects
+    var day: String = ""
 
     /*
     // MARK: - Navigation

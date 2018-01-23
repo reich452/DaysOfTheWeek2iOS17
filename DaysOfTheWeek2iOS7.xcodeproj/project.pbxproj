@@ -11,6 +11,8 @@
 		013C71222017BAC200ED3FC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013C71202017BAC200ED3FC4 /* Main.storyboard */; };
 		013C71242017BAC200ED3FC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013C71232017BAC200ED3FC4 /* Assets.xcassets */; };
 		013C71272017BAC200ED3FC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013C71252017BAC200ED3FC4 /* LaunchScreen.storyboard */; };
+		013C712F2017BCC000ED3FC4 /* DayListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013C712E2017BCC000ED3FC4 /* DayListTableViewController.swift */; };
+		013C71312017C04B00ED3FC4 /* DayDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013C71302017C04B00ED3FC4 /* DayDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		013C71232017BAC200ED3FC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		013C71262017BAC200ED3FC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		013C71282017BAC200ED3FC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		013C712E2017BCC000ED3FC4 /* DayListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayListTableViewController.swift; sourceTree = "<group>"; };
+		013C71302017C04B00ED3FC4 /* DayDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				013C711C2017BAC200ED3FC4 /* AppDelegate.swift */,
 				013C71202017BAC200ED3FC4 /* Main.storyboard */,
+				013C712E2017BCC000ED3FC4 /* DayListTableViewController.swift */,
+				013C71302017C04B00ED3FC4 /* DayDetailViewController.swift */,
 				013C71232017BAC200ED3FC4 /* Assets.xcassets */,
 				013C71252017BAC200ED3FC4 /* LaunchScreen.storyboard */,
 				013C71282017BAC200ED3FC4 /* Info.plist */,
@@ -133,6 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				013C71312017C04B00ED3FC4 /* DayDetailViewController.swift in Sources */,
+				013C712F2017BCC000ED3FC4 /* DayListTableViewController.swift in Sources */,
 				013C711D2017BAC200ED3FC4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
